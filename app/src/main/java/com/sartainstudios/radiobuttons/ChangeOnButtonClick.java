@@ -29,7 +29,6 @@ public class ChangeOnButtonClick extends AppCompatActivity {
                 RadioButton rb = (RadioButton) group.findViewById(checkedId);
                 switch (rb.getId()) {
                     case R.id.radio_button_I_passionately_love_them:
-                        //textViewResults.setText("Well I love you too");
                         selection = "Well I love you too";
                         break;
                     case R.id.radio_button_I_somewhat_like_them:
@@ -44,8 +43,6 @@ public class ChangeOnButtonClick extends AppCompatActivity {
                     case R.id.radio_button_I_have_no_opinion_on_them:
                         selection = "The only opinion I have on u is you need to make up your mind";
                         break;
-                    default:
-                        selection = "Do you not know how to select an option?";
                 }
             }
         });

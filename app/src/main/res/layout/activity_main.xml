@@ -9,4 +9,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DirectChange">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change On Button Click"
+        android:id="@+id/change_on_button_click_button"
+        android:layout_marginTop="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direct Change"
+        android:id="@+id/direct_change_button"
+        android:layout_below="@+id/change_on_button_click_button"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
