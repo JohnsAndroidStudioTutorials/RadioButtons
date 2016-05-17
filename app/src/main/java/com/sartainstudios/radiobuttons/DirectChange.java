@@ -11,12 +11,12 @@ public class DirectChange extends AppCompatActivity {
 
     RadioGroup radioGroupJohnsAndroidStudioTutorialsPreference;
     TextView textViewResults;
-    String selection;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_direct_change);
+
         radioGroupJohnsAndroidStudioTutorialsPreference = (RadioGroup) findViewById(R.id.radio_group_johns_android_studio_tutorials_preference);
         textViewResults = (TextView) findViewById(R.id.text_view_results);
 

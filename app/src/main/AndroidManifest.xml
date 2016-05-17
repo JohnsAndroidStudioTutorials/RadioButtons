@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DirectChange" />
-        <activity android:name=".ChangeOnButtonClick"></activity>
+        <activity android:name=".ChangeOnButtonClick"/>
     </application>
 
 </manifest>
